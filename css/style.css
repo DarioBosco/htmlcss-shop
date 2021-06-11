@@ -5,7 +5,7 @@ box-sizing: border-box;
 }
 
 main {
-   width: 50%;
+   width: 40%;
    margin: 50px auto;
 }
 
@@ -58,6 +58,20 @@ main > div {
    bottom: 60px;
 }
 
+.leftAdditionalTag {
+   background-color: green;
+   color: white;
+   font-weight: bold;
+   font-size: 11px;
+   line-height: 20px;
+   width: 65px;
+   height: 20px;
+   text-align: center;
+   position: absolute;
+   left: 0px;
+   bottom: 60px;
+}
+
 /* Articoli */
 .articleDescription {
    display : block
@@ -84,4 +98,5 @@ main > div {
 .originalPrice {
    text-decoration: line-through;
 }
+
 /* Fine Articoli */
