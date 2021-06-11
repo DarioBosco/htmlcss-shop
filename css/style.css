@@ -28,52 +28,39 @@ main > div {
    width: 30px;
    height: 30px;
    line-height: 30px;
-   text-align: center;
-   position: absolute;
    right: 0;
    top: 10px;
 }
 
 .discount {
    background-color: red;
-   color: white;
-   font-size: 11px;
-   font-weight: bold;
-   line-height: 20px;
    width: 35px;
-   height: 20px;
-   text-align: center;
-   position: absolute;
    left: 0;
-   bottom: 60px;
 }
 
 .additionalTag {
    background-color: green;
-   color: white;
-   font-weight: bold;
-   font-size: 11px;
-   line-height: 20px;
    width: 65px;
-   height: 20px;
-   text-align: center;
-   position: absolute;
    left: 37px;
+}
+
+.discount, .additionalTag {
+   color: white;
+   font-size: 11px;
+   font-weight: bold;
+   line-height: 20px;
+   height: 20px;
    bottom: 60px;
 }
 
-.leftAdditionalTag {
-   background-color: green;
-   color: white;
-   font-weight: bold;
-   font-size: 11px;
-   line-height: 20px;
-   width: 65px;
-   height: 20px;
-   text-align: center;
-   position: absolute;
+.noDiscount {
    left: 0px;
    bottom: 60px;
+}
+
+.like, .discount, .additionalTag, .noDiscount {
+   text-align: center;
+   position: absolute;
 }
 
 /* Articoli */
@@ -106,46 +93,10 @@ main > div {
 /* Fine Articoli */
 
 /* Swap immagini primo articolo */
-#firstArticle:hover .secondaryImage{
+#firstArticle:hover .secondaryImage, #secondArticle:hover .secondaryImage, #fourthArticle:hover .secondaryImage, #fifthArticle:hover .secondaryImage, #sixthArticle:hover .secondaryImage{
    display: inline-block;
 }
 
-#firstArticle:hover .primaryImage{
-   display: none;
-}
-
-/* Swap immagini secondo articolo */
-#secondArticle:hover .secondaryImage{
-   display: inline-block;
-}
-
-#secondArticle:hover .primaryImage{
-   display: none;
-}
-
-/* Swap immagini quarto articolo */
-#fourthArticle:hover .secondaryImage{
-   display: inline-block;
-}
-
-#fourthArticle:hover .primaryImage{
-   display: none;
-}
-
-/* Swap immagini quinto articolo */
-#fifthArticle:hover .secondaryImage{
-   display: inline-block;
-}
-
-#fifthArticle:hover .primaryImage{
-   display: none;
-}
-
-/* Swap immagini sesto articolo */
-#sixthArticle:hover .secondaryImage{
-   display: inline-block;
-}
-
-#sixthArticle:hover .primaryImage{
+#firstArticle:hover .primaryImage, #secondArticle:hover .primaryImage, #fourthArticle:hover .primaryImage, #fifthArticle:hover .primaryImage, #sixthArticle:hover .primaryImage{
    display: none;
 }
