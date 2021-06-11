@@ -18,6 +18,10 @@ main > div {
    position: relative;
 }
 
+.secondaryImage {
+   display: none;
+}
+
 .like {
    background-color: white;
    font-size: 18px;
@@ -100,3 +104,48 @@ main > div {
 }
 
 /* Fine Articoli */
+
+/* Swap immagini primo articolo */
+#firstArticle:hover .secondaryImage{
+   display: inline-block;
+}
+
+#firstArticle:hover .primaryImage{
+   display: none;
+}
+
+/* Swap immagini secondo articolo */
+#secondArticle:hover .secondaryImage{
+   display: inline-block;
+}
+
+#secondArticle:hover .primaryImage{
+   display: none;
+}
+
+/* Swap immagini quarto articolo */
+#fourthArticle:hover .secondaryImage{
+   display: inline-block;
+}
+
+#fourthArticle:hover .primaryImage{
+   display: none;
+}
+
+/* Swap immagini quinto articolo */
+#fifthArticle:hover .secondaryImage{
+   display: inline-block;
+}
+
+#fifthArticle:hover .primaryImage{
+   display: none;
+}
+
+/* Swap immagini sesto articolo */
+#sixthArticle:hover .secondaryImage{
+   display: inline-block;
+}
+
+#sixthArticle:hover .primaryImage{
+   display: none;
+}
